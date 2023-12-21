@@ -1,0 +1,33 @@
+.login-page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.login-page-input{
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 5px; 
+
+}
+.login-page-button{
+    width: 350px;
+    height: 40px;
+    background-color: blueviolet; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+.login-page-b{
+    display: flex;
+    align-items: center;
+
+}
+.login-page-login{
+    color: black !important;
+    border: none !important;
+    margin-bottom: 10px !important;
+}

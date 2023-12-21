@@ -1,0 +1,75 @@
+.uzum-img-icon{
+    width: 40px;
+    height: 40px;
+}
+.left{
+    align-items: center;
+    display: flex;
+}
+.left h1{
+    color: #7000FF;
+}
+
+.inp{
+    border: 1px solid #D1D1D3;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+    height: 42px;
+}
+
+.uzum-inp-search{
+    height: 40px;
+    border: none;
+    border-bottom: none;
+    width: 450px;
+
+}
+
+.container-uzum-header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+}
+.head{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navlink-text{
+    text-decoration: none;
+    color: #949494;
+}
+
+.navlink-text:hover{
+    text-decoration: none;
+    color: #2b2b2b;
+}
+.navlink-texts{
+    text-decoration: none;
+    color: black;
+}
+.uzum-user-icon{
+    color: black !important; 
+    height: 50px;
+    width: 100px;
+}
+.uzum-like-icon{
+    color: black !important; 
+    height: 50px;
+    width: 150px
+}
+.uzum-shop-icon{
+    color: black !important; 
+    height: 50px;
+    width: 100px
+}
+.uzum-right-icons{
+    display: flex;
+    gap: 10px;
+}

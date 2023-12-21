@@ -1,0 +1,13 @@
+.home-container{
+    width: 100%;
+}
+
+.cards-uzum-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+    margin-top: 50px;
+}
+

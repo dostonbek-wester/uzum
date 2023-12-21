@@ -1,0 +1,11 @@
+.container{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+*{
+    font-family: Noto Sans,sans-serif;
+}
