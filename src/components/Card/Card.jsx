@@ -23,7 +23,7 @@ function Card({ item }) {
       <div className="card-uzum" onClick={Details}>
         <button className='uzum_kategori_btn'>aksiya</button>
         <button className='uzum_kategori_btn_like'><FavoriteBorder /></button>
-        <img src={item.photos[0].link.low} className='uzum_img' />
+        <img src={item.photos[0].link.high} className='uzum_img' />
         <h3 className='uzum_name'>{reduce_title(item.title)}...</h3>
         <Rating
           name="simple-controlled"
