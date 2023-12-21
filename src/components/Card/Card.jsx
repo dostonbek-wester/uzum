@@ -29,8 +29,8 @@ function Card({ item }) {
           name="simple-controlled"
           value={item.rating}
         />
-        <p className='chegrima_last_price'>{item.minSellPrice}so'm</p>
-        <h3 style={{padding:4}} className='uzum_price'>{item.minFullPrice}so'm</h3>
+        <p className='chegrima_last_price'>{item.minFullPrice}so'm</p>
+        <h3 style={{padding:4}} className='uzum_price'>{item.minSellPrice}so'm</h3>
       </div>
     </div>
   )
